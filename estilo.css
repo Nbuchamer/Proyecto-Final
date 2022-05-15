@@ -75,21 +75,3 @@ h3{
     font-size: 1.7rem;
 
 }
-@media screen and (max-width: 1080px){
-    .container{
-    width: 90%;
-    height: 80vh;
-    margin: 20px auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas:
-    "header header"
-    "main main"
-    "aside aside"
-    "footer footer";
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-}
-}
